@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h2 class="heading bg-primary">
+        Real Time Image Identification App
+        <center>
+          <div class="heading_div col-lg-5 col-md-5 col-sm-5">
+            We are using Mobilenet as a Model
+            <br />
+            <br />
+            <div class="heading_div2">
+              Mobilenet model is trained on 1.3 different objects.
+            </div>
+          </div>
+        </center>
+        <br />
+      </h2>
+      <br /><br />
+
+      <p class="result_para_tag btn btn-success">
+        Object :
+        <span id="object_name"></span>
+      </p>
+
+      <br /><br />
+      <p class="result_para_tag btn btn-success">
+        Accuracy :
+        <span id="confidence"></span>
+      </p>
+    </center>
+
+    <div class="copy_right_footer bg-primary">Devloped by Abhinav</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

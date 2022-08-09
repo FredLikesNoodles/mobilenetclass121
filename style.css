@@ -1,0 +1,53 @@
+.heading {
+  width: 100%;
+  margin: 0px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 10px;
+}
+.heading_div {
+  background: white;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 5px 5px 5px grey;
+  float: none;
+  margin: 20px;
+  padding: 10px;
+}
+.heading_div2 {
+  font-size: 18px;
+}
+.result_para_tag {
+  box-shadow: 5px 5px 5px grey;
+  font-size: 20px;
+}
+
+.copy_right_footer {
+  margin: 0;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+body {
+  background-image: url("m.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+canvas {
+  border-radius: 20px;
+  border: 3px black solid;
+  margin-top: 135px;
+  animation-name: boxshadow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes boxshadow {
+  from {
+    box-shadow: 10px 10px 50px rgb(1, 81, 51);
+  }
+  to {
+    box-shadow: 10px 10px 50px rgb(17, 0, 255);
+  }
+}
